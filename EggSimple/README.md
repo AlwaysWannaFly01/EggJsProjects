@@ -31,3 +31,11 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+Service 封装的一个抽象层， 数据库交互的代码
+- 保持Controller 逻辑更简单
+- 独立性，Service 多个Controller
+
+EJS（模板引擎）
+- 对SEO友好
+- 

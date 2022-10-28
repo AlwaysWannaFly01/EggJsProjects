@@ -23,6 +23,23 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  // CSRF enable: false
+  config.security = {
+    csrf: {
+      enable: false,
+    },
+  };
+
+  config.view = {
+    mapping: {
+      '.html': 'ejs',
+    },
+  };
+
+  config.ejs = {
+
+  };
+
   return {
     ...config,
     ...userConfig,
